@@ -20,6 +20,9 @@ public class DriverLinkedList {
 		myLL.insertEnd(350);
 		myLL.insertAtValue(250, 200);
 		myLL.insertAfterNthNode(2, 150);
+		myLL.deleteFirst();
+		myLL.deleteAtValue(150);
+		myLL.deleteNode(second);
 		myLL.printOut();
 		
 		
